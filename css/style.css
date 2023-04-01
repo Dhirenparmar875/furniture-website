@@ -124,7 +124,9 @@ li{
 }
 .site-bar ,.symbol{
     display: flex;
-    padding: 5px;
+    padding: 0 5px;
+    padding-left: 0;
+    padding-right: 0;
 }
 .site-bar ul li  ,.symbol ul li {
     text-transform: capitalize;
@@ -184,7 +186,7 @@ li{
 .main-navigation{
     margin-bottom: 10px;
 }
-nav {
+nav ul{
    display: flex;
    padding: 10px;
 }
@@ -220,6 +222,11 @@ nav ul li a{
     margin-bottom: 15px;
 }
 /* deal-site  */
+.case{
+    background-color: rgb(218, 236, 252);
+    padding: 10px;
+    border-radius: 10px;
+}
 .deal-site{
     display: flex;
     text-transform: capitalize;
@@ -267,7 +274,8 @@ nav ul li a{
 /* outfit */
 .outfit-box ,.blog-box{
     display: flex;
-    margin-left: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
     text-align: center;
     background-color: rgb(233, 239, 255);
     padding: 30px;
@@ -286,9 +294,8 @@ nav ul li a{
 /* best */
 .left-right a{
     color: var(--black-color);
-    margin: 10px;
-    background-color: rgb(255, 245, 233);
-    padding: 15px;
+    margin: 8px;
+    padding: 10px;
     border-radius: 10px;
 }
 /* furniture */
@@ -338,10 +345,13 @@ nav ul li a{
 /* list-item */
 .list-item{
     display: flex;
-    margin-left: 25px;
+    margin-right: 20px;
     text-align: center;
+    margin-bottom: 10px;
     padding:20px;
-    border: 2px solid aliceblue;
+    border-radius: 10px;
+    background-color:aliceblue;
+    border: 2px solid rgb(222, 236, 248);
 }
 .list-item img{
     width: 50px;
@@ -354,8 +364,10 @@ nav ul li a{
 }
 /* listitem */
 .list-box{
-    border: 2px solid aliceblue;
+    border: 2px solid rgb(222, 236, 248);
     padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
 }
 .list-item-img img{
     width: 250px;
@@ -420,6 +432,10 @@ nav ul li a{
     font-weight: 400;
 }
 /* footer */
+.footer{
+    background-color: var(--black-color);
+    
+}
 .footer-box {
     display: flex;
     padding: 40px;
@@ -427,11 +443,12 @@ nav ul li a{
 .footer-content h4 ,.footer-information h4 ,.footer-product h4 ,.footer-links h4{
     font-size: 20px;
     text-transform: uppercase;
+    color: var(--white-color);
     margin-bottom: 20px;
 }
 .footer-box a{
     display: block;
-    color: var(--black-color);
+    color: var(--white-color);
     font-size: 18px;
     text-transform: capitalize;
     margin-bottom: 8px;
